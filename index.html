@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gender</title>
+</head>
+<body>
+    <div class="center">
+        <input id="nameInput" name="name" type="text" onchange="onChangeHandler(event)">
+        <button id="btn" onclick="getGender()">Reveal</button>
+    </div>
+    <div class="info">
+        <h2 id="nameOutput"></h2>
+        <img id="img">
+        <p id="percentage"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
